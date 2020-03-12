@@ -55,7 +55,7 @@ catkin_make
 ```
 Download all the files into your newly created folder 'fly_bot_cpp'. You have to replace the currently existing CMakeLists, package.xml, src folder and not MERGE!. Thus, the folder hierarchy must be as follows:
 ```
-/catkin_cpp_ws/src/fly_bot_cpp/src
+/catkin_cpp_ws/src/fly_bot_cpp
   -config
   -include
   -launch
