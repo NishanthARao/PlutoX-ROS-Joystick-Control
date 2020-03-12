@@ -87,6 +87,6 @@ You should see the propellers rotating. Enjoy navigating in the environment, and
 
 **Tip** 
 
-1)If you have a nVidia graphics card, you can make the simulation look cleaner with some extra effects like shadows. Just go to the ```pluto.world``` file present in the ```worlds``` directory of the package, and change the <shadows>false</shadows> line to <shadows>true</shadows>
+1)If you have a nVidia graphics card, you can make the simulation look cleaner with some extra effects like shadows. Just go to the ```pluto.world``` file present in the ```worlds``` directory of the package, and change the ```<shadows>false</shadows>``` line to ```<shadows>true</shadows>```
 
-2)You can change the pilot camera's position to whatever you desire in the file ```pluto.world``` present in the ```worlds``` directory of the package and edit the line <xyz>0 -1.5 0.35</xyz> in the <gui> definition. Note that this is a 3D position vector relative to the DRONE and not the environment.
+2)You can change the pilot camera's position to whatever you desire in the file ```pluto.world``` present in the ```worlds``` directory of the package and edit the line ```<xyz>0 -1.5 0.35</xyz>``` in the ```<gui>``` definition. Note that this is a 3D position vector relative to the DRONE and not the environment.
