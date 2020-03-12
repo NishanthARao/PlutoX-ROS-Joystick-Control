@@ -1,6 +1,8 @@
 # PlutoX-ROS-Joystick-Control
 This is a simulation of the PlutoX drone in ROS-Melodic, gazebo9 environment, using a linux-supported Joystick.
 
+![Image](https://github.com/NishanthARao/PlutoX-ROS-Joystick-Control/blob/master/Pluto.png)
+
 This project is a simulation of the PlutoX drone created by DronaAviation, IIT Bombay. The model of the drone is created on blender, which is imported as a mesh file in a .xacro file that defines the quadcopter model. The mathematical model of the drone is written in a C++ file present in the ```src``` directory. The output is then calulated by a set of 9 PID algorithms, and the final state is published to Gazebo via the ```setModelState``` service. 
 
 Additionally, a Joystick control has been added to navigate the world present in Gazebo. Upon pressing the R1 button on the Joystick, the drone automagically goes to the point (1,1,1) and hovers there. In this mode, the joystick controls are disabled. Upon repressing the R1 button, the position hold mode is disabled and the Joystick control is back! Please note that the R1 button in my Joystick can be mapped differently in the Joystick you are using. One way to identify which button corresponds to enabling the position hold, is by running the joystick node testing ROS program given in the tutorials. The button that corresponds to a change in the 6th element of the index is your position hold button.  
